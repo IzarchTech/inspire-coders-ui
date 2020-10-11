@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;&display=swap");
+
+*,
+*::before,
+*::after {
+  font-family: "Montserrat", sans-serif;
+}
+
+.user-img {
+  border-radius: 0.5rem !important;
+}
+
+.text-success {
+  color: #04edcc !important;
+}
+
+.text-sm {
+  font-size: 0.6rem;
+}
+
+.h-35 {
+  height: 35% !important;
+}
+
+.h-10 {
+  height: 10% !important;
+}
+
+.rounded-lg {
+  border-radius: 5% !important;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.btn-white {
+  background-color: #ffffff;
+  color: #15a3de;
+}
+
+.btn-blue {
+  background-color: #68bcfd;
+  color: #ffffff;
+}
+
+input,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
