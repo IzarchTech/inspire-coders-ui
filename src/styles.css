@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 
 *,
 *::before,
@@ -55,4 +55,8 @@ select:focus,
 textarea:focus {
   outline: none !important;
   box-shadow: none !important;
+}
+
+.auth-bg {
+  background-color: #f2f6fb;
 }
